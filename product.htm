@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product Landing Page Project</title>
+</head>
+
+<body>
+  <div id="container">
+    <header id="header">
+       <div class="header-logo-container">
+          <a href="#sec1"><img id="header-img" src="http://imgplaceholder.com/50x50/transparent/000000/fa-500px" alt="TerrySmith.io"><span class="logo">TerrySmith.io</span></a>
+      </div>
+      <nav id="nav-bar" class="flex-container">
+        <ul class="nav flex-container flex-item flex-end item-center">
+          <li><a class="nav-link" href="#sec1">Product</a></li>
+          <li><a class="nav-link" href="#sec2">Overview</a></li>
+          <li><a class="nav-link" href="#sec3">Tech Specs</a></li>
+          <li><a><span class="shop-cart"></span></a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="sec1">
+        <div class="flex-container productflex">
+          <div class='product-image flex-item flex-start'>
+            <img alt="product image" src='http://content.competitivecyclist.com/images/items/900/AAS/AAS001A/RDSWI.jpg' />
+          </div>
+          <div class='product-buy-box flex-item'>
+            <h3 class="brand">GIO-TERREPPE</h3>
+            <span class="product-name">Terreppe Jersey - Men's</span>
+            <div class="product-bar"></div>
+            <div class="price-display">
+              <span class="">Your Price: </span>
+              <span class="">$122.46</span> </span>
+            </div>
+            <div class="size-range">
+              <span>Size</span>
+              <div class="size-selector-list">
+                <a href="javascript:;" class="size-button">S</a>
+                <a href="javascript:;" class="size-button">M</a>
+                <a href="javascript:;" class="size-button">L</a>
+              </div>
+            </div>
+            <div class="dropdown-label">Quantity</div>
+            <select required id="dropdown">
+                                <option value="0">none</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                </select>
+            <button class="button">Add to Cart</button>
+            <div>
+              <h4 class="returns"> Free Returns</h4>
+              <p class="return-text">30-day free returns on all products. Limited time offer. See terms &amp; conditions.</p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <section id="sec2">
+        <h3>Overview</h3>
+        <div class="flex-container overview-container">
+          <div class="flex-item flex-center">
+            <p class="overview-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="overview-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+      </section>
+      <section id="sec3">
+        <h3>Tech Specs</h3>
+        <div class="flex-container flex-space-between flex-spec-wrap-mobile">
+          <div class="flex-item flex-start">
+            <div class="spec-grid-container">
+              <div>Material</div>
+              <div>synthetic</div>
+              <div>Zip</div>
+              <div>full-lengh</div>
+              <div>Season</div>
+              <div>spring, summer, fall</div>
+              <div>Pockets</div>
+              <div>3 rear, 2 side, 1 zippered rear</div>
+              <div>Recommended Use</div>
+              <div>road cycling</div>
+            </div>
+          </div>
+          <div class="flex-item flex-end video-spec">
+            <video controls="controls" id="video" preload="none" width="420">
+                            <source src="https://dl5.webmfiles.org/big-buck-bunny_trailer.webm" type="video/webm"></video>
+            <p><em> How to wear the Jersey</em></p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="flex-container">
+        <div class="flex-item flex-center email-container">
+          <form class="form-signup" id="form" action="https://www.freecodecamp.org/email-submit">
+            <div class="email-label-container">
+              <p class="get-latest-label">Get the latest news &amp; promotions</p>
+            </div>
+            <div class="email-input-container">
+              <input type="email" id="email" name="email" class="email-input" size="83" placeholder="Your Email Address" required>
+              <input type="submit" value="Sign Up" id="submit" class="email-button">
+            </div>
+          </form>
+        </div>
+      </div>
+      <nav class="flex-container">
+        <ul class="nav flex-container  flex-item flex-center">
+          <li><a class="nav-link" href="#sec1">Product</a></li>
+          <li><a>Track Order</a></li>
+          <li><a>My Account</a></li>
+        </ul>
+      </nav>
+      <div class="flex-item flex-start">
+        <span class="copyright"> &copy; TerrySmith.io  - All rights reserved.</span>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
